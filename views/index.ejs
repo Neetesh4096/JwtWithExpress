@@ -1,0 +1,12 @@
+<html>
+    <%- include('./partials/header.ejs') %>
+    <body>
+<%- include('./partials/nav.ejs') %>
+<% if(!message){  %>
+      <%= "Hello" %>
+      
+      <% } else {%>
+      <%= message %>
+      <% } %> 
+    </body>
+</html>
